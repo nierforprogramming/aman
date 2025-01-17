@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --accent-color: #FD6F00;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+}
+
+/* Header */
+.logo h1 {
+    background: -webkit-linear-gradient(#FA6E00, #E60026);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
